@@ -20,7 +20,7 @@
   .container {
     width: 80%;
     margin:0px auto;
-      
+    
   }
   .container:after {
     content: '';
@@ -164,10 +164,10 @@ footer {
   text-align:center;
   font-size:12px;
   padding-top:83px;
-
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width :768px) {
   .container {
+    scroll-behavior: auto!important;
     width:90%;
   }
   header h1 {
@@ -177,7 +177,7 @@ footer {
   header ul {
     text-align:center;
     float:none;
-  }
+  } 
   .box .col-3 {
     width:100%;
     float:none;
